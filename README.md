@@ -32,4 +32,4 @@ Now you can visit the webpage at [http://localhost:3000](http://localhost:3000)
 
 <!-- # Quick Preview -->
 
-<!-- [Preview video]() -->
+<!-- [Preview video](https://drive.google.com/file/d/1wvn86cK-rC_pcd4KAlVzwSD3u3qL9dQr/view?usp=sharing) -->
