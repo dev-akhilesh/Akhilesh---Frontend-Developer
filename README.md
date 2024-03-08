@@ -30,6 +30,6 @@ Now you can visit the webpage at [http://localhost:3000](http://localhost:3000)
 
 - [Visit deployed url](https://saviour-app.netlify.app/)
 
-<!-- # Quick Preview -->
+# Quick Preview 
 
-<!-- [Preview video](https://drive.google.com/file/d/1wvn86cK-rC_pcd4KAlVzwSD3u3qL9dQr/view?usp=sharing) -->
+[Preview video](https://drive.google.com/file/d/1wvn86cK-rC_pcd4KAlVzwSD3u3qL9dQr/view?usp=sharing)
