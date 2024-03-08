@@ -2,7 +2,8 @@ import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import SideLogo from "../assets/image 1.png";
-import { Footer } from "./Footer";
+
+
 export const FAQ = () => {
   return (
     <>
@@ -52,20 +53,12 @@ export const FAQ = () => {
                   WHEN CAN WE CLAIM THE TOKENS?
                 </span>
                 <IoIosArrowDown className="ml-5 font-Shojumaru text-4xl" />
-
-                {/* <MdKeyboardArrowUp className="ml-5 font-Shojumaru text-5xl" /> */}
               </p>
-              {/* <p className="text-white ml-10 mt-3 font-zcool bg-CustomBackground p-3 rounded-md font-xl">
-                After the IDD Concludes, you can claim the tokens on our
-                official <br /> website
-              </p> */}
+               
             </div>
           </div>
         </div>
       </div>
-
-
-      <Footer/>
     </>
   );
 };

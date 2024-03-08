@@ -37,7 +37,7 @@ export const WallectConnect = () => {
   const { open } = useWeb3Modal();
   return (
     <button
-      className=" font-semibold py-2 px-4 rounded-full shadow mt-10 bg-gradient-button"
+      className=" font-semibold lg:py-2 lg:px-4  py-1 px-1 rounded-full shadow mt-10 bg-gradient-button"
       onClick={() => open()}
     >
       Connect Wallet

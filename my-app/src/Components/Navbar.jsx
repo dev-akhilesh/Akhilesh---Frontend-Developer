@@ -2,8 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import { Home } from "./Home";
-import { FaBars, FaTimes } from "react-icons/fa"; // Import icons
+import { FaBars, FaTimes } from "react-icons/fa"; 
 import { WallectConnect } from "../Wallet/WallectConnect.tsx";
 
 export const Navbar = () => {
@@ -15,7 +14,7 @@ export const Navbar = () => {
 
   const myStyle = {
     backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DDdFYUddbSsGEf0QSGti5Cg7lidhL0R2bXjELhUwEV916o-VcdPwS4WGlXiVo9qRbeVI3Bzkd7UeRjP5H9AIK~2dP0Dgrk3NdfoH1J1y0hFrK~r2g67GPoeRFsfSacSshmfm8shplqeqcyN3yxsP6hS~--sP2BcGeipjELPJo80BHbFSoq1upwAdmGAFj3FJLzFnyzlP99VUPkeHEICy5Je4UrlDLGe9u6-lz8VNaqBNOam0v4G-uz6~yOZA4AB7U80FxFl9xKiNZorNk5fz9iSdHLJpBr3x06ROZHk~OSrjocloLBn4wljeDzUnMV1lAqbBej0ir~2TOrumoQzZ7w__`})`,
-    height: "40rem",
+    height: "45rem",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
   };
@@ -31,7 +30,7 @@ export const Navbar = () => {
                   onClick={toggleNavbar}
                   className="mr-2 md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
                 >
-                  {/* Use React Icons */}
+        
                   {isOpen ? (
                     <FaTimes className="mt-10" />
                   ) : (
@@ -40,7 +39,7 @@ export const Navbar = () => {
                 </button>
 
                 <div className="flex items-center mt-20">
-                  <img className="w-15" src={logo} alt="Saviour Logo" />
+                  <img className="w-13" src={logo} alt="Saviour Logo" />
                   <span className="text-white text-lg font-zlogo mr-2 -mt-10">
                     Saviour
                   </span>
@@ -78,10 +77,6 @@ export const Navbar = () => {
                   Coming Soon
                 </Link>
               </div>
-              {/* <button className=" font-semibold py-2 px-4 rounded-full shadow mt-10 bg-gradient-button" 
-              >
-                Connect Wallet
-              </button> */}
               <WallectConnect/>
             </div>
           </div>
@@ -121,7 +116,12 @@ export const Navbar = () => {
             <div className="px-2 pt-2 pb-3 sm:px-3"></div>
           </div>
         </nav>
-        <Home />
+        <div className="flex justify-center items-center">
+          <h1 className="text-center text-2xl lg:text-4xl text-white font-Shojumaru leading-tight lg:leading-tight lg:mb-4 sm:mt-10 sm:shadow-lg lg:shadow-none lg:mt-96 mt-20">
+            WHERE BLOCKCHAIN HEROES THRIVE, RESCUING
+            <span className="block font-normal">DREAMS, ELEVATING FORTUNES.</span>
+          </h1>
+        </div>
       </div>
     </>
   );

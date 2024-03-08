@@ -4,7 +4,7 @@ import Card1 from "../assets/Link1.png";
 import Card2 from "../assets/Link2.png";
 import Card3 from "../assets/Link (3).png";
 import Card4 from "../assets/Link4.png";
-import { FAQ } from "./FAQ";
+// import { FAQ } from "./FAQ";
 
 export const Tokenomics = () => {
   const myStyle = {
@@ -87,7 +87,7 @@ export const Tokenomics = () => {
           </div>
         </div>
       
-      <FAQ/>
+      {/* <FAQ/> */}
     </>
   );
 };

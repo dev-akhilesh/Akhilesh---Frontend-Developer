@@ -1,7 +1,8 @@
 import React from "react";
 import copidImage from "../assets/fluent_copy-16-filled.png";
-import { Tokenomics } from "./Tokenomics";
-export const Participate = () => {
+
+
+export const IDO = () => {
   const myStyle = {
     backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/b6b9/0f7f/8e9b3d8d12c20152d7f3a9b31de44fe8?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ehOUdXbWis3shbKtgpPUpGm0Q03Rlmg-PABTo7iiqQDcRad1FUOfTQjO-LFU~0b1nFdD1oO2BxakmjcORt9ASLc7szCErNMaz1evXLtDAV-hsfdOxY5RirkMOX6HXgggeJNAAyjlcVvmyHwQyD~MJ~KzK2-uKO6tzhXBl7HVwS6hYRjRzgGS2E1~g8D8S6-7ElrZl14llvPbn0fHbTEYUAauw8QVHTea3jDwuRD1jxdGdU~R7PHPzMEPmIW79x1U~UFXNJQfub-UiQ-JI~jhMQnySPAZoy3Oeg0h5raXhhGIkiAnXyWaGdvgmjXc~Mvdozo5D2Ke~DIm9KoKgO8YNQ__`})`,
     // height: "50rem",
@@ -14,12 +15,12 @@ export const Participate = () => {
       <div style={myStyle}>
         <div className="">
           <div className="font-Shojumaru text-heading text-2xl text-center ">
-            <h1>PARTICIPATE IN OUR IDO EVENT!</h1>
+            <h1>IDO IN OUR IDO EVENT!</h1>
           </div>
 
           <div className="container mx-auto">
             <div className="lg:flex lg:flex-row justify-center items-center space-around w-full sm:flex-col">
-              {/* First parent div */}
+              
               <div className="lg:w-1/2 sm:w-full">
                 <div className="flex justify-center mt-10">
                   <div className="font-zcool text-white text-center w-3/4">
@@ -74,10 +75,10 @@ export const Participate = () => {
                   <div className="relative">
                     <input
                       type="text"
-                      placeholder="Generate a unique referral link"
-                      className="bg-black border border-2 border-BorderColor px-5 py-2 mt-2 font-zcool text-BorderColor rounded-full px-10"
+                      placeholder="Generate a unique referral link" 
+                      className="bg-black border border-2 border-BorderColor px-5 py-2 mt-2 font-zcool text-BorderColor rounded-full px-10 w-80 lg:w-96"
                     />
-                    <button className="absolute top-0 right-0 bg-gradient-button px-4 py-2 rounded-full mt-2 mr-0.5">
+                    <button className="absolute top-0 right-0 bg-gradient-button px-4 py-2 rounded-full mt-2.5 mr-0.5">
                       Generate{" "}
                       <img
                         src={copidImage}
@@ -85,16 +86,10 @@ export const Participate = () => {
                         alt=""
                       />
                     </button>
-                    {/* <div>
-                      <img src={copidImage} className="" alt="" />
-                    </div> */}
                   </div>
-
-                  {/* <div cl/> */}
                 </div>
               </div>
 
-              {/* Second parent div */}
               <div className="lg:w-1/3 sm:w-full mt-10">
                 <div className="relative">
                   <div className="absolute -top-10 left-0 right-0 flex justify-center">
@@ -160,7 +155,7 @@ export const Participate = () => {
         </div>
       </div>
 
-      <Tokenomics />
+
     </>
   );
 };
