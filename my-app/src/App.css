@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap')
 
+/* In your CSS or SCSS file */
+
+/* .bg-gradient-text {
+  background: linear-gradient(92.23deg, #FF002A 5.2%, #FF002A 5.2%, #720005 90.93%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-map {
+  background: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+
+
 /* .App {
   text-align: center;
 }

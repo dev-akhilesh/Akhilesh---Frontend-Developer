@@ -3,24 +3,26 @@ import copidImage from "../assets/fluent_copy-16-filled.png";
 
 
 export const IDO = () => {
+
   const myStyle = {
-    backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/b6b9/0f7f/8e9b3d8d12c20152d7f3a9b31de44fe8?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ehOUdXbWis3shbKtgpPUpGm0Q03Rlmg-PABTo7iiqQDcRad1FUOfTQjO-LFU~0b1nFdD1oO2BxakmjcORt9ASLc7szCErNMaz1evXLtDAV-hsfdOxY5RirkMOX6HXgggeJNAAyjlcVvmyHwQyD~MJ~KzK2-uKO6tzhXBl7HVwS6hYRjRzgGS2E1~g8D8S6-7ElrZl14llvPbn0fHbTEYUAauw8QVHTea3jDwuRD1jxdGdU~R7PHPzMEPmIW79x1U~UFXNJQfub-UiQ-JI~jhMQnySPAZoy3Oeg0h5raXhhGIkiAnXyWaGdvgmjXc~Mvdozo5D2Ke~DIm9KoKgO8YNQ__`})`,
-    // height: "50rem",
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('https://s3-alpha-sig.figma.com/img/b6b9/0f7f/8e9b3d8d12c20152d7f3a9b31de44fe8?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ehOUdXbWis3shbKtgpPUpGm0Q03Rlmg-PABTo7iiqQDcRad1FUOfTQjO-LFU~0b1nFdD1oO2BxakmjcORt9ASLc7szCErNMaz1evXLtDAV-hsfdOxY5RirkMOX6HXgggeJNAAyjlcVvmyHwQyD~MJ~KzK2-uKO6tzhXBl7HVwS6hYRjRzgGS2E1~g8D8S6-7ElrZl14llvPbn0fHbTEYUAauw8QVHTea3jDwuRD1jxdGdU~R7PHPzMEPmIW79x1U~UFXNJQfub-UiQ-JI~jhMQnySPAZoy3Oeg0h5raXhhGIkiAnXyWaGdvgmjXc~Mvdozo5D2Ke~DIm9KoKgO8YNQ__')`,
     backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+    // backgroundRepeat: "no-repeat",
+    backgroundPosition: "center bottom 80%",
   };
+
 
   return (
     <>
       <div style={myStyle}>
-        <div className="">
+        <div className="pb-10 pt-10">
           <div className="font-Shojumaru text-heading text-2xl text-center ">
-            <h1>IDO IN OUR IDO EVENT!</h1>
+            <h1>PARTICIPATE IN OUR IDO EVENT!</h1>
           </div>
 
           <div className="container mx-auto">
             <div className="lg:flex lg:flex-row justify-center items-center space-around w-full sm:flex-col">
-              
+
               <div className="lg:w-1/2 sm:w-full">
                 <div className="flex justify-center mt-10">
                   <div className="font-zcool text-white text-center w-3/4">
@@ -34,14 +36,14 @@ export const IDO = () => {
                   <div className="absolute -top-10 font-Shojumaru text-white bg-heading mb-4 p-5 rounded-full">
                     TOKEN INFO
                   </div>
-                  <div className="text-white border border-2 border-BorderColor p-9 rounded-md bg-CardBackground">
+                  <div className="text-white border border-1 border-BorderColor p-9 rounded-md bg-CardBackground">
                     <p className="mb-2 font-zcool">
                       Total Token Supply{" "}
                       <span className="text-heading ml-10 font-zcool">20%</span>
                     </p>
                     <p className="mb-2 font-zcool">
                       Soft Cap{" "}
-                      <span className="text-heading ml-10 font-zcool">
+                      <span className="text-heading ml-10 font-zcool text-right">
                         200BNB
                       </span>
                     </p>
@@ -66,7 +68,7 @@ export const IDO = () => {
                 </div>
 
                 <div className="flex flex-col justify-center items-center mt-3 sm:mt-10 mb-10">
-                  <button className="bg-gradient-button p-3 rounded-full flex items-center mb-4">
+                  <button className="bg-gradient-button p-3 rounded-lg flex items-center mb-4">
                     <h1 className="font-zcool">Connect Wallet</h1>
                   </button>
                   <h1 className="font-Shojumaru text-heading text-2xl text-center mb-4">
@@ -75,8 +77,8 @@ export const IDO = () => {
                   <div className="relative">
                     <input
                       type="text"
-                      placeholder="Generate a unique referral link" 
-                      className="bg-black border border-2 border-BorderColor px-5 py-2 mt-2 font-zcool text-BorderColor rounded-full px-10 w-80 lg:w-96"
+                      placeholder="Generate a unique referral link"
+                      className="bg-black border border-1 border-BorderColor px-5 py-2 mt-2 mb-10 font-zcool text-BorderColor rounded-full px-10 w-80 lg:w-76"
                     />
                     <button className="absolute top-0 right-0 bg-gradient-button px-4 py-2 rounded-full mt-2.5 mr-0.5">
                       Generate{" "}
@@ -92,17 +94,17 @@ export const IDO = () => {
 
               <div className="lg:w-1/3 sm:w-full mt-10">
                 <div className="relative">
-                  <div className="absolute -top-10 left-0 right-0 flex justify-center">
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                  <div className="absolute -top-10 left-0 right-0 flex justify-center ">
+                    <div className="text-white border border-1 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                    <div className="text-white border border-1 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                    <div className="text-white border border-1 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                    <div className="text-white border border-1 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
                   </div>
@@ -125,25 +127,25 @@ export const IDO = () => {
                     <input
                       type="text"
                       placeholder="Enter the amount (BNB)"
-                      className="bg-black border border-2 border-BorderColor px-5 py-2 mt-3 font-zcool text-BorderColor rounded-full mt-3"
+                      className=" pr-10 bg-transparent border border-1 border-BorderColor px-5 py-2 mt-3 font-zcool text-BorderColor rounded-full mt-3"
                     />
                     <br />
                     <input
                       type="text"
                       placeholder="Minimum Quantity to Buy"
-                      className="bg-black border border-2 border-BorderColor px-5 py-2 mt-3 font-zcool text-BorderColor rounded-full mt-3"
+                      className="pr-10 bg-transparent border border-1 border-BorderColor px-5 py-2 mt-3 font-zcool text-BorderColor rounded-full mt-3"
                     />
                     <br />
                     <input
                       type="text"
                       placeholder="Maximum Quantity of Tokens"
-                      className="bg-black border border-2 border-BorderColor px-5 py-2 mt-3 font-zcool text-BorderColor rounded-full mt-3"
+                      className=" pr-10 bg-transparent border border-1 border-BorderColor px-5 py-2 mt-3 font-zcool text-BorderColor rounded-full mt-3"
                     />
                     <div className="gap-3 flex justify-center mt-5">
-                      <button className="bg-gradient-button px-5 py-2 rounded-md">
+                      <button className="bg-gradient-button px-5 py-2 rounded-full">
                         Buy
                       </button>
-                      <button className="bg-gradient-button px-3 py-2 rounded-md">
+                      <button className="bg-gradient-button px-3 py-2 rounded-full">
                         Claim Drop
                       </button>
                     </div>

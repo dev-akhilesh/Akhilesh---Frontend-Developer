@@ -6,12 +6,17 @@ import mail from "../assets/clarity_email-solid.png";
 
 export const Footer = () => {
   return (
-    <div className="bg-black flex flex-col justify-center items-center text-white py-10">
+    <div className="bg-black flex flex-col justify-center items-center text-white py-10 pt-20">
       <div>
         <img src={footerLogo} alt="Footer Logo" />
       </div>
-      <h1 className="text-xl font-bold mt-4 mb-2 text-heading">SITEMAP</h1>
-      <div className="flex flex-wrap justify-center gap-4 font-xl">
+      {/* <h1 className="text-xl font-bold mt-4 mb-2 text-heading">SITEMAP</h1> */}
+      <h1 className="text-xl font-bold mt-4 mb-2 text-heading relative inline-block">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-red-600 to-red-900">
+          SITEMAP
+        </span>
+      </h1>
+      <div className="flex flex-wrap justify-center gap-6 font-xl">
         <p>Home</p>
         <p>IDO</p>
         <p>Tokenomics</p>

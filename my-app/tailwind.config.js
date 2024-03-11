@@ -12,16 +12,17 @@ module.exports = {
         "gradient-heading":
           "linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%)",
         heading: "#ED0137",
-        BorderColor: "#C4110C",
+        BorderColor: "#ED0137",
         CardBackground: "#0D0D0D",
-        CustomBackground: "#3B3B3B",
-        FooterBackground: "#1c1919",
+        CustomBackground: "#181818",
+        FooterBackground: "#0A0A0A",
       },
       backgroundImage: (theme) => ({
         "gradient-button":
           "linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%)",
           
       }),
+      
     },
   },
   plugins: [],
