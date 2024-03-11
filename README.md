@@ -1,7 +1,17 @@
-
 ## Getting Started
 
-Basic simple webpage coded with ReactJs.The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.This project implements wallet connection functionality using the WalletConnect protocol. 
+Basic simple webpage coded with ReactJs.The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.This project implements wallet connection functionality using the WalletConnect protocol.
+
+## Screenshots
+
+### Large Screen
+
+![Large Screen](./screenshots/large-screen.png)
+
+### Mobile Screen
+
+![Mobile Screen](./screenshots/mobile-screen.png)
+
 ## Run the development server
 
 Just copy and paste the below commands going into the root directly
@@ -14,13 +24,14 @@ npm run dev
 Now you can visit the webpage at [http://localhost:3000](http://localhost:3000)
 
 ### Tect stack
-* React
-* Talwind css
-* Html 5
-* CSS3
-* Responsive Web Design Principles
-* Web3Modal
-* WalletConnect
+
+- React
+- Talwind css
+- Html 5
+- CSS3
+- Responsive Web Design Principles
+- Web3Modal
+- WalletConnect
 
 ## Figma template/design
 
@@ -30,6 +41,6 @@ Now you can visit the webpage at [http://localhost:3000](http://localhost:3000)
 
 - [Visit deployed url](https://saviour-app.netlify.app/)
 
-# Quick Preview 
+# Quick Preview
 
 [Preview video](https://drive.google.com/file/d/1wvn86cK-rC_pcd4KAlVzwSD3u3qL9dQr/view?usp=sharing)
