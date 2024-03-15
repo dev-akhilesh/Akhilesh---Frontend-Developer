@@ -6,11 +6,12 @@ Basic simple webpage coded with ReactJs.The goal was to replicate the design pro
 
 ### Large Screen
 
-![Large Screen](./screenshots/large-screen.png)
+<img src="./screenshots/large-screen.png" alt="Large Screen">
 
 ### Mobile Screen
 
-![Mobile Screen](./screenshots/mobile-screen.png)
+<img src="./screenshots/mobile-screen.png" alt="Mobile Screen" style="width: 400px;">
+
 
 ## Run the development server
 
