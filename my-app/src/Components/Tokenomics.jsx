@@ -4,15 +4,8 @@ import Card1 from "../assets/Link1.png";
 import Card2 from "../assets/Link2.png";
 import Card3 from "../assets/Link (3).png";
 import Card4 from "../assets/Link4.png";
-// import { FAQ } from "./FAQ";
 
 export const Tokenomics = () => {
-  // const myStyle = {
-  //   backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/c869/1086/fe977eb60a56b9a690490c109cbb1a69?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VdvCCq3nWIgGgQrmVDBTdioKqUqFIQcZCiIWy51KvjjWnyS5JbGGX9GsonTUlJU6Fk0~MK6SnZk0NYYOkwvR-LLag~jBAz-vUFK5H-sCMUOutgk6FQzz4dIvWTvzxw29ZDJzX7c1cSWkhJaBmaz9VVcRbcjZ9SGcGrp6v2xUoG9Xi~j97Aa4vTDn669gCGn8b8~SUguLrxae5yOFqJhfcWSp7VsmyIR7HiVqQuX67BfZLcyIo6ccFZyksRbveD2fpO9geGgDp5sxaurcKyeNxmlCgsGd20DZFPPTm-u6lpjjYHMbdrCl8iMWBxpOZMJOmVYTOG90-wPiu34C9j3W~Q__`})`,
-  //   // height: "50rem",
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-  // };
 
   const myStyle = {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('https://s3-alpha-sig.figma.com/img/c869/1086/fe977eb60a56b9a690490c109cbb1a69?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VdvCCq3nWIgGgQrmVDBTdioKqUqFIQcZCiIWy51KvjjWnyS5JbGGX9GsonTUlJU6Fk0~MK6SnZk0NYYOkwvR-LLag~jBAz-vUFK5H-sCMUOutgk6FQzz4dIvWTvzxw29ZDJzX7c1cSWkhJaBmaz9VVcRbcjZ9SGcGrp6v2xUoG9Xi~j97Aa4vTDn669gCGn8b8~SUguLrxae5yOFqJhfcWSp7VsmyIR7HiVqQuX67BfZLcyIo6ccFZyksRbveD2fpO9geGgDp5sxaurcKyeNxmlCgsGd20DZFPPTm-u6lpjjYHMbdrCl8iMWBxpOZMJOmVYTOG90-wPiu34C9j3W~Q__')`,

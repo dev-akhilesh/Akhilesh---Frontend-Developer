@@ -53,8 +53,7 @@ export const FAQ = () => {
                   WHEN CAN WE CLAIM THE TOKENS?
                 </span>
                 <IoIosArrowDown className="ml-5 font-Shojumaru text-4xl" />
-              </p>
-               
+              </p>   
             </div> */}
             <div className="flex flex-col mt-5 border border-1 border-BorderColor px-10 py-3 rounded-lg">
               <p className="text-white flex items-center font-Shojumaru">

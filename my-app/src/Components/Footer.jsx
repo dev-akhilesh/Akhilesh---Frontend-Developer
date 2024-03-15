@@ -10,7 +10,9 @@ export const Footer = () => {
       <div>
         <img src={footerLogo} alt="Footer Logo" />
       </div>
+
       {/* <h1 className="text-xl font-bold mt-4 mb-2 text-heading">SITEMAP</h1> */}
+      
       <h1 className="text-xl font-bold mt-4 mb-2 text-heading relative inline-block">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-red-600 to-red-900">
           SITEMAP

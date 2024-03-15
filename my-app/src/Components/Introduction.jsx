@@ -6,7 +6,6 @@ import { IoIosArrowDown } from "react-icons/io";
 export const Introduction = () => {
   return (
     <>
-
       <div className="flex flex-col lg:flex-row items-center justify-center bg-black  px-4 space-between ">
         <div className="text-white lg:ml-40 lg:order-1 order-2 lg:w-1/2">
           <h1 className="font-Shojumaru text-heading lg:text-5xl lg:-mt-15 text-center lg:text-left sm:text-4xl ">
